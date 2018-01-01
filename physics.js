@@ -3,7 +3,7 @@ var xv;
 var x;
 var y;
 var physics = {
-friction: 0.7,
+friction: 0.8,
 gravity: 2,
 code: function() {
 yv += physics.gravity;
