@@ -11,8 +11,9 @@ y += yv;
 x += xv;
 xv = xv * physics.friction;
 //draw character at (x,y);
-if(/*collision*/) {
-//platformer script
+if(y>300) {
+y = 297;
+yv = 10;
 }
 },
 interval: setInterval(physics.code,10)
